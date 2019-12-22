@@ -27,6 +27,37 @@ export default new Router({
       name: 'vuex',
       component:()=>import("@/view/vuex.vue")
     },
+    {
+      path: '/search',
+      name: 'search',
+      component:()=>import("@/view/search.vue")
+    },
+    {
+      path: '/tab',
+      name: 'tab',
+      component:()=>import("@/view/tab.vue")
+    },
+    {
+      path: '/style',
+      name: 'style',
+      component:()=>import("@/view/style.vue")
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component:()=>import("@/view/product.vue")
+    },
+    {
+      path: '/account',
+      name: 'account',
+      component: () => import("@/view/account.vue")
+    },
+    // ,
+    // {
+    //   path: '/userInfo',
+    //   name: 'userInfo',
+    //   component: () => import("@/view/userInfo.vue")
+    // }
     // {
     //   path:'/componentPage',
     //   name: 'componentPage',

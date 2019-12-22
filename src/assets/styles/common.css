@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px 0px
+}
+.item{
+  flex: 1;
+}
+.f-right {
+  float: right;
+}
