@@ -51,13 +51,11 @@ export default new Router({
       path: '/account',
       name: 'account',
       component: () => import("@/view/account.vue")
-    },
-    // ,
-    // {
-    //   path: '/userInfo',
-    //   name: 'userInfo',
-    //   component: () => import("@/view/userInfo.vue")
-    // }
+    },{
+      path: '/echart',
+      name: 'echart',
+      component: () => import("@/view/echart.vue")
+    }
     // {
     //   path:'/componentPage',
     //   name: 'componentPage',

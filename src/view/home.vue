@@ -6,8 +6,10 @@
       <router-link :to="'/search'"><div>搜索管理：search</div></router-link>
       <router-link :to="'/tab'"><div>tab页面：tab</div></router-link>
       <router-link :to="'/style'"><div>style页面：style</div></router-link>
-      <router-link :to="'/product'">购物车产品：vuex</router-link>
+      <router-link :to="'/product'">购物车产品vuex：vuex</router-link>
       <router-link :to="'/seleted-product'">购物车已选产品：vuex</router-link>
+      <router-link :to="'/product-1'">购物车版本2</router-link>
+      <router-link :to="'/echart'">echart</router-link>
     </div>
 </template>
 
